@@ -1,0 +1,17 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  profiles:
+    active: local
+  thymeleaf:
+    prefix: html/
+    suffix: .html
+    cache: false
+
+mybatis:
+  mapper-locations: mapper/email/*.xml
+
+
+  
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>主页面</title>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/calendar/zzsc.css">
+<link rel="stylesheet" href="/css/calendar/dcalendar.picker.css" />
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/calendar/dcalendar.picker.js"></script>
+
+</head>
+<style>
+
+.mycontainer {
+	padding: 25px;
+		
+}
+
+label {
+	float: left;
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+#startdate1 {
+	float: left;
+}
+
+#lasdate1 {
+	
+}
+
+.wui-content, .wui-area {
+	display: inline;
+}
+
+.form-group {
+	
+}
+
+.btn {
+	display: block;
+	margin-left: 2px;
+	clear: both;
+	color: white;
+}
+
+.btn-primary {
+	background-color: rgb(0, 134, 206);
+}
+
+#mybtn {
+	margin-top: 30px;
+}
+input {
+	background-image:url('/images/icon_cal.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	background-size: auto 24px;
+	padding: 0px 0px 0px 30px;
+	width:180px;
+	font-size:14px;
+}
+</style>
+<body>
+	<div class="mycontainer">
+		<b>请输入查询条件：</b>
+		<p />
+		<form class="form-inline" role="form">
+			<div class="form-group">
+				数据起始日期: <span style="color: red">*</span> &nbsp;&nbsp;&nbsp;
+				<input id='mydatepicker' type='text'/>
+			</div>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class="form-group" id="lasdate1">
+				数据终止日期: <span style="color: red">*</span> &nbsp;&nbsp;&nbsp;
+				<input id='mydatepicker2' type='text'/>
+			</div>
+			<div id="mybtn">
+				<button type="submit" class="btn btn-primary">数据提取</button>
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	$('#mydatepicker').dcalendarpicker({
+		format : 'yyyy-mm-dd'
+	});
+	$('#mydatepicker2').dcalendarpicker({
+		format : 'yyyy-mm-dd'
+	});
+	$('#mycalendar').dcalendar();
+</script>
+</html>
