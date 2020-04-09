@@ -132,7 +132,7 @@ body {
 	position: absolute;
 	top: 3px;
 	left: 5px;
-	font-szie: 10px;
+	font-size: 10px;
 	content: '';
 	width: 16px;
 	height: 16px;
@@ -286,6 +286,6 @@ body {
 	margin-left:15px;
 }
  
- html{
+/*  html{
     filter: grayscale(100%);
-}
+} */
