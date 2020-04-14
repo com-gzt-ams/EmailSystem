@@ -11,6 +11,8 @@ public class SysRole {
 
     private String updateTime;
 
+    private String chk;
+
     public Integer getId() {
         return id;
     }
@@ -49,5 +51,13 @@ public class SysRole {
 
     public void setUpdateTime(String updateTime) {
         this.updateTime = updateTime == null ? null : updateTime.trim();
+    }
+
+    public String getChk() {
+        return chk;
+    }
+
+    public void setChk(String chk) {
+        this.chk = chk == null ? null : chk.trim();
     }
 }

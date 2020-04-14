@@ -793,6 +793,76 @@ public class SysMenuExample {
             addCriterion("update_time not between", value1, value2, "updateTime");
             return (Criteria) this;
         }
+
+        public Criteria andChkIsNull() {
+            addCriterion("chk is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkIsNotNull() {
+            addCriterion("chk is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkEqualTo(String value) {
+            addCriterion("chk =", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkNotEqualTo(String value) {
+            addCriterion("chk <>", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkGreaterThan(String value) {
+            addCriterion("chk >", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkGreaterThanOrEqualTo(String value) {
+            addCriterion("chk >=", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkLessThan(String value) {
+            addCriterion("chk <", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkLessThanOrEqualTo(String value) {
+            addCriterion("chk <=", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkLike(String value) {
+            addCriterion("chk like", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkNotLike(String value) {
+            addCriterion("chk not like", value, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkIn(List<String> values) {
+            addCriterion("chk in", values, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkNotIn(List<String> values) {
+            addCriterion("chk not in", values, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkBetween(String value1, String value2) {
+            addCriterion("chk between", value1, value2, "chk");
+            return (Criteria) this;
+        }
+
+        public Criteria andChkNotBetween(String value1, String value2) {
+            addCriterion("chk not between", value1, value2, "chk");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

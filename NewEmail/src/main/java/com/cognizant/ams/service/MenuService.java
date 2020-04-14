@@ -50,7 +50,6 @@ public class MenuService {
         String nodecode=menu.getNodeCode();
         String nodename=menu.getNodeName();
         String isdeleted=menu.getIsDeleted();
-
         if (!"".equals(nodecode)){
             criteria.andNodeCodeEqualTo(nodecode);
         }
@@ -86,5 +85,25 @@ public class MenuService {
 	    int result=sysMenuMapper.updateByExample(menu,example);
 	    return result;
     }
+
+	public List<SysMenu> queryMenu(SysMenu sysMenu) {
+		List<SysMenu> list=sysMenuMapper.queryMenu(sysMenu);
+		return list;
+	}
+
+	public int addMenu  (SysMenu sysMenu) {
+	   int result = sysMenuMapper.addMenu(sysMenu);
+	   return result;
+	    
+	}
+
+	public void deleteMenu(List<String> list) {
+		sysMenuMapper.deleteMenu(list);
+	}
+
+	public void updateMenu(List<SysMenu> list) {
+		sysMenuMapper.updateMenu(list);
+	}
+
 	 
 }

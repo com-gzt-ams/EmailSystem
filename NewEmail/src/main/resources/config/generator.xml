@@ -53,6 +53,6 @@
 	    <table schema="" tableName="sys_role"/>
         <table schema="" tableName="sys_role_menu"/>
         <table schema="" tableName="sys_menu"/> -->
-        <table schema="" tableName="Organization"/> 
+        <table schema="" tableName="sys_menu"/> 
 	</context>
 </generatorConfiguration>

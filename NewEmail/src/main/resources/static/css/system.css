@@ -1,3 +1,7 @@
+.page-item{
+	cursor: pointer;
+}
+
 .tableinput{
 	border:none;
 	outline:none;
@@ -100,7 +104,10 @@ body {
 	height: 50px;
 	width: 100%;
 }
-
+.bh1 {
+	height: 10px;
+	width: 100%;
+}
 .bh2 {
 	height: 20px;
 	width: 100%;
@@ -216,10 +223,24 @@ body {
 	border: 1px solid rgb(210, 210, 210);
 	outline: none;
 }
+.checkbox_c1 {
+	position: relative;
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+	top: 7px;
+	border: 1px solid rgb(210, 210, 210);
+	outline: none;
+}
 
 .checkbox:checked {
 	background: rgb(0, 123,255);
 	border-radius: 3px;
+	border: 0;
+}
+.checkbox_c1:checked{
+	background: rgb(0, 123,255);
+	border-radius: 2px;
 	border: 0;
 }
 
@@ -236,7 +257,19 @@ body {
 	transform: rotate(-45deg);
 	transition: all 0.1s linear;
 }
-
+.checkbox_c1:after {
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	content: '';
+	width: 10px;
+	height: 5px;
+	
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	transform: rotate(-45deg);
+	transition: all 0.1s linear;
+}
 
 
 .tc{
@@ -282,8 +315,8 @@ body {
 	cursor:pointer;
 }
 .batch{
-	margin-top:5px;
-	margin-left:15px;
+	top:3px;
+	margin-left:10px;
 }
  
 /*  html{

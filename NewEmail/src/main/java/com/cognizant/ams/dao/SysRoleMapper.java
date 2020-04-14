@@ -27,6 +27,14 @@ public interface SysRoleMapper {
     int updateByPrimaryKeySelective(SysRole record);
 
     int updateByPrimaryKey(SysRole record);
-    
     List<SysRole> getUserRole();
+
+ 	int addRole(SysRole sysRole);
+
+ 	List<SysRole> queryRole(SysRole sysRole);
+
+ 	void deleteRole(List<String> list);
+
+ 	int updateRole(List<SysRole> list);
+    
 }

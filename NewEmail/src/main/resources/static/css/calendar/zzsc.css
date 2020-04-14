@@ -110,7 +110,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	font-variant: normal;
 	font-family: 'icomoon';
 	line-height: 1;
-	speak: none;
+	
 	-webkit-font-smoothing: antialiased;
 }
 /* footer */
@@ -144,8 +144,8 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	padding: 10px 20px;
 	opacity: 0.8;
 	-webkit-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-	-webkit-backface-visibility: hidden;
+	transition: opacity 0.3s
+
 }
 
 .related a:hover,

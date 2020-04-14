@@ -27,6 +27,13 @@ public interface SysMenuMapper {
     int updateByPrimaryKeySelective(SysMenu record);
 
     int updateByPrimaryKey(SysMenu record);
-
 	List<SysMenu> getUserMenu(String username);
+
+	List<SysMenu> queryMenu(SysMenu sysMenu);
+
+	int addMenu(SysMenu sysMenu);
+
+	void deleteMenu(List<String> list);
+
+	void updateMenu(List<SysMenu> list);
 }

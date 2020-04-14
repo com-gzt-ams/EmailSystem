@@ -7,6 +7,7 @@
     <result column="role_name" jdbcType="VARCHAR" property="roleName" />
     <result column="create_time" jdbcType="CHAR" property="createTime" />
     <result column="update_time" jdbcType="CHAR" property="updateTime" />
+    <result column="chk" jdbcType="CHAR" property="chk" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -67,7 +68,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, role_code, role_name, create_time, update_time
+    id, role_code, role_name, create_time, update_time, chk
   </sql>
   <select id="selectByExample" parameterType="com.cognizant.ams.bean.SysRoleExample" resultMap="BaseResultMap">
     select
@@ -101,9 +102,9 @@
   </delete>
   <insert id="insert" parameterType="com.cognizant.ams.bean.SysRole">
     insert into sys_role (id, role_code, role_name, 
-      create_time, update_time)
+      create_time, update_time, chk)
     values (#{id,jdbcType=INTEGER}, #{roleCode,jdbcType=CHAR}, #{roleName,jdbcType=VARCHAR}, 
-      #{createTime,jdbcType=CHAR}, #{updateTime,jdbcType=CHAR})
+      #{createTime,jdbcType=CHAR}, #{updateTime,jdbcType=CHAR}, #{chk,jdbcType=CHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.cognizant.ams.bean.SysRole">
     insert into sys_role
@@ -123,6 +124,9 @@
       <if test="updateTime != null">
         update_time,
       </if>
+      <if test="chk != null">
+        chk,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -139,6 +143,9 @@
       </if>
       <if test="updateTime != null">
         #{updateTime,jdbcType=CHAR},
+      </if>
+      <if test="chk != null">
+        #{chk,jdbcType=CHAR},
       </if>
     </trim>
   </insert>
@@ -166,6 +173,9 @@
       <if test="record.updateTime != null">
         update_time = #{record.updateTime,jdbcType=CHAR},
       </if>
+      <if test="record.chk != null">
+        chk = #{record.chk,jdbcType=CHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -177,7 +187,8 @@
       role_code = #{record.roleCode,jdbcType=CHAR},
       role_name = #{record.roleName,jdbcType=VARCHAR},
       create_time = #{record.createTime,jdbcType=CHAR},
-      update_time = #{record.updateTime,jdbcType=CHAR}
+      update_time = #{record.updateTime,jdbcType=CHAR},
+      chk = #{record.chk,jdbcType=CHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -197,6 +208,9 @@
       <if test="updateTime != null">
         update_time = #{updateTime,jdbcType=CHAR},
       </if>
+      <if test="chk != null">
+        chk = #{chk,jdbcType=CHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -205,12 +219,48 @@
     set role_code = #{roleCode,jdbcType=CHAR},
       role_name = #{roleName,jdbcType=VARCHAR},
       create_time = #{createTime,jdbcType=CHAR},
-      update_time = #{updateTime,jdbcType=CHAR}
+      update_time = #{updateTime,jdbcType=CHAR},
+      chk = #{chk,jdbcType=CHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  
   
   
   <select id="getUserRole"  resultMap="BaseResultMap" >
   			select * from sys_role
 </select>
+
+  <insert id="addRole" parameterType="com.cognizant.ams.bean.SysRole">
+   				insert into sys_role values(#{roleCode},#{roleName},(select CONVERT(varchar(100), GETDATE(), 120)) ,(select CONVERT(varchar(100), GETDATE(), 120)) ,'false' );
+  </insert>
+  
+  
+    <select id="queryRole" parameterType="com.cognizant.ams.bean.SysRole" resultMap="BaseResultMap">
+  			select * from sys_role
+  			<where>
+  					<if test="id != null  and id !='' ">
+       					  and id = #{id}
+     			    </if>
+     			    <if test="roleCode != null  and roleCode !='' ">
+       					  and role_code = #{roleCode}
+     			    </if>
+     			    <if test="roleName != null  and roleName !='' ">
+       					  and role_name = #{roleName}
+     			    </if>
+  			</where>
+
+  </select>
+  
+   <delete id='deleteRole' parameterType='list'>
+  				delete from sys_role where id in
+  				<foreach collection="list" item="item" separator=","   open="("  close=")">
+  							#{item}
+  				</foreach>
+  </delete>
+  
+     <update id="updateRole" parameterType='list'>
+  		<foreach collection="list" item="role"  open=""  close=""  separator=";" >		
+					 update  sys_role  set role_code=#{role.roleCode} ,role_name=#{role.roleName},update_time=(select CONVERT(varchar(100), GETDATE(), 120)) where id = #{role.id}
+		</foreach>
+  </update>
 </mapper>

@@ -1,0 +1,688 @@
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 5436 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.b.d.restart.ChangeableUrls] ====message: The Class-Path manifest attribute in D:\JavaDevelopment\maven\maven-repository\com\mchange\c3p0\0.9.5.4\c3p0-0.9.5.4.jar referenced one or more files that do not exist: file:/D:/JavaDevelopment/maven/maven-repository/com/mchange/c3p0/0.9.5.4/mchange-commons-java-0.2.15.jar
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 2228 ms
+[INFO ] 2020-04-13 14:24:44 [MLog-Init-Reporter] [com.mchange.v2.log.MLog] ====message: MLog clients using slf4j logging.
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [com.mchange.v2.c3p0.C3P0Registry] ====message: Initializing c3p0-0.9.5.4 [built 23-March-2019 23:00:48 -0700; debug? true; trace: 10]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 14:24:44 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-10 23:46:19 [Thread-169] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 1188 ms
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 1.588 seconds (JVM running for 254541.17)
+[INFO ] 2020-04-13 15:13:34 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:13:34 [Thread-179] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 907 ms
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:13:49 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 313 ms
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:12 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.a.c.c.C.[Tomcat-2].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 328 ms
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:19 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.a.c.c.C.[Tomcat-3].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 344 ms
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:14:56 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.a.c.c.C.[Tomcat-4].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 339 ms
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:15:50 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 14220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.a.c.c.C.[Tomcat-5].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 333 ms
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:16:38 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 13220 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.b.d.restart.ChangeableUrls] ====message: The Class-Path manifest attribute in D:\JavaDevelopment\maven\maven-repository\com\mchange\c3p0\0.9.5.4\c3p0-0.9.5.4.jar referenced one or more files that do not exist: file:/D:/JavaDevelopment/maven/maven-repository/com/mchange/c3p0/0.9.5.4/mchange-commons-java-0.2.15.jar
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 1277 ms
+[INFO ] 2020-04-13 15:16:45 [MLog-Init-Reporter] [com.mchange.v2.log.MLog] ====message: MLog clients using slf4j logging.
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [com.mchange.v2.c3p0.C3P0Registry] ====message: Initializing c3p0-0.9.5.4 [built 23-March-2019 23:00:48 -0700; debug? true; trace: 10]
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:16:45 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.d.restart.ChangeableUrls] ====message: The Class-Path manifest attribute in D:\JavaDevelopment\maven\maven-repository\com\mchange\c3p0\0.9.5.4\c3p0-0.9.5.4.jar referenced one or more files that do not exist: file:/D:/JavaDevelopment/maven/maven-repository/com/mchange/c3p0/0.9.5.4/mchange-commons-java-0.2.15.jar
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] ====message: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 1302 ms
+[INFO ] 2020-04-13 15:25:13 [MLog-Init-Reporter] [com.mchange.v2.log.MLog] ====message: MLog clients using slf4j logging.
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [com.mchange.v2.c3p0.C3P0Registry] ====message: Initializing c3p0-0.9.5.4 [built 23-March-2019 23:00:48 -0700; debug? true; trace: 10]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:25:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 2.878 seconds (JVM running for 3.678)
+[INFO ] 2020-04-13 15:25:13 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:25:13 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:25:13 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 6 ms
+[INFO ] 2020-04-13 15:25:13 [http-nio-8080-exec-4] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|84ee4b5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|84ee4b5, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 15:25:13 [Thread-7] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 371 ms
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.698 seconds (JVM running for 296.64)
+[INFO ] 2020-04-13 15:30:08 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:30:08 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:30:08 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:30:08 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 8 ms
+[INFO ] 2020-04-13 15:30:08 [http-nio-8080-exec-5] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|505509aa, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|505509aa, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 15:30:08 [Thread-14] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 436 ms
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.795 seconds (JVM running for 738.054)
+[INFO ] 2020-04-13 15:37:29 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:37:29 [Thread-23] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 594 ms
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.982 seconds (JVM running for 753.888)
+[INFO ] 2020-04-13 15:37:45 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:37:45 [Thread-28] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 624 ms
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.981 seconds (JVM running for 827.87)
+[INFO ] 2020-04-13 15:38:59 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:38:59 [Thread-33] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 352 ms
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.624 seconds (JVM running for 881.911)
+[INFO ] 2020-04-13 15:39:53 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:39:53 [Thread-38] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 320 ms
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.596 seconds (JVM running for 900.332)
+[INFO ] 2020-04-13 15:40:12 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:40:12 [Thread-43] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 340 ms
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.626 seconds (JVM running for 906.565)
+[INFO ] 2020-04-13 15:40:18 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:40:18 [Thread-48] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 322 ms
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.608 seconds (JVM running for 919.916)
+[INFO ] 2020-04-13 15:40:31 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:40:31 [Thread-53] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 319 ms
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.615 seconds (JVM running for 1091.783)
+[INFO ] 2020-04-13 15:43:23 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:43:23 [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:43:23 [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:43:23 [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 4 ms
+[INFO ] 2020-04-13 15:43:23 [http-nio-8080-exec-8] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|1bee1aeb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|1bee1aeb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 15:43:23 [Thread-58] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 301 ms
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.574 seconds (JVM running for 1439.492)
+[INFO ] 2020-04-13 15:49:11 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:49:11 [Thread-67] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 339 ms
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.598 seconds (JVM running for 1474.149)
+[INFO ] 2020-04-13 15:49:46 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:49:46 [Thread-72] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 330 ms
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.583 seconds (JVM running for 1509.809)
+[INFO ] 2020-04-13 15:50:21 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:50:21 [Thread-77] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 328 ms
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.585 seconds (JVM running for 1515.99)
+[INFO ] 2020-04-13 15:50:27 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:50:27 [Thread-82] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 298 ms
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.584 seconds (JVM running for 1550.627)
+[INFO ] 2020-04-13 15:51:02 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:51:02 [Thread-87] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 330 ms
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.617 seconds (JVM running for 1561.957)
+[INFO ] 2020-04-13 15:51:13 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 15:51:13 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:51:13 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 15:51:13 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 4 ms
+[INFO ] 2020-04-13 15:51:13 [http-nio-8080-exec-5] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|132f94f4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|132f94f4, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 15:51:13 [Thread-92] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 563 ms
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.902 seconds (JVM running for 2137.218)
+[INFO ] 2020-04-13 16:00:48 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:00:48 [Thread-101] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 396 ms
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.69 seconds (JVM running for 2181.231)
+[INFO ] 2020-04-13 16:01:33 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:01:33 [Thread-106] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 431 ms
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.737 seconds (JVM running for 2291.536)
+[INFO ] 2020-04-13 16:03:23 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:03:23 [Thread-111] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 371 ms
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.723 seconds (JVM running for 2353.925)
+[INFO ] 2020-04-13 16:04:25 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:04:25 [Thread-116] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 391 ms
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.696 seconds (JVM running for 2372.466)
+[INFO ] 2020-04-13 16:04:44 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:04:44 [Thread-121] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 391 ms
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.701 seconds (JVM running for 2398.154)
+[INFO ] 2020-04-13 16:05:09 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:05:09 [Thread-126] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.a.c.c.C.[Tomcat].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 401 ms
+[INFO ] 2020-04-13 16:05:16 [restartedMain] [o.a.catalina.core.StandardService] ====message: Stopping service [Tomcat]
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 375 ms
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.681 seconds (JVM running for 2480.911)
+[INFO ] 2020-04-13 16:06:32 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:06:32 [Thread-131] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 348 ms
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.648 seconds (JVM running for 2490.342)
+[INFO ] 2020-04-13 16:06:42 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:06:42 [Thread-139] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 390 ms
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.671 seconds (JVM running for 2504.82)
+[INFO ] 2020-04-13 16:06:56 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:06:56 [Thread-144] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 409 ms
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.697 seconds (JVM running for 2513.234)
+[INFO ] 2020-04-13 16:07:05 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:05 [Thread-149] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 373 ms
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.671 seconds (JVM running for 2521.58)
+[INFO ] 2020-04-13 16:07:13 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:13 [Thread-154] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 329 ms
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.65 seconds (JVM running for 2524.779)
+[INFO ] 2020-04-13 16:07:16 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:16 [Thread-159] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 335 ms
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.595 seconds (JVM running for 2537.064)
+[INFO ] 2020-04-13 16:07:28 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:28 [Thread-164] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 357 ms
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.615 seconds (JVM running for 2543.272)
+[INFO ] 2020-04-13 16:07:35 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:35 [Thread-169] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 295 ms
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.551 seconds (JVM running for 2559.581)
+[INFO ] 2020-04-13 16:07:51 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:07:51 [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:07:51 [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:07:51 [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 4 ms
+[INFO ] 2020-04-13 16:07:51 [http-nio-8080-exec-6] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|1ba9fb5a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|1ba9fb5a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 16:07:51 [Thread-174] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 338 ms
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.612 seconds (JVM running for 2846.231)
+[INFO ] 2020-04-13 16:12:38 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:12:38 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:12:38 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:12:38 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 2 ms
+[INFO ] 2020-04-13 16:12:38 [http-nio-8080-exec-1] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|560a7ce9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|560a7ce9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+[INFO ] 2020-04-13 16:12:38 [Thread-183] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Starting EmailApplication on CNHTPYHZ2 with PID 12708 (C:\Users\change\Desktop\Repository\NewEmail\target\classes started by change in C:\Users\change\Desktop\Repository\NewEmail)
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: The following profiles are active: uat
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.a.catalina.core.StandardService] ====message: Starting service [Tomcat]
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.a.catalina.core.StandardEngine] ====message: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.web.context.ContextLoader] ====message: Root WebApplicationContext: initialization completed in 319 ms
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.s.c.ThreadPoolTaskExecutor] ====message: Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.b.a.w.s.WelcomePageHandlerMapping] ====message: Adding welcome page template: index
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer] ====message: LiveReload server is running on port 35729
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.a.coyote.http11.Http11NioProtocol] ====message: Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.b.w.e.tomcat.TomcatWebServer] ====message: Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [com.cognizant.ams.EmailApplication] ====message: Started EmailApplication in 0.596 seconds (JVM running for 2912.407)
+[INFO ] 2020-04-13 16:13:44 [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] ====message: Condition evaluation unchanged
+[INFO ] 2020-04-13 16:13:44 [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat-1].[localhost].[/]] ====message: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:13:44 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-04-13 16:13:44 [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] ====message: Completed initialization in 2 ms
+[INFO ] 2020-04-13 16:13:44 [http-nio-8080-exec-6] [c.m.v.c.i.AbstractPoolBackedDataSource] ====message: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2ybz0ja9vqzm3bv94e93|4d46ea90, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2ybz0ja9vqzm3bv94e93|4d46ea90, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:sqlserver://10.164.25.149:1433;DatabaseName=MetLifeEmail, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
