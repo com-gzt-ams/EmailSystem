@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import com.alibaba.fastjson.JSONArray;
 import com.cognizant.ams.bean.SysRole;
+import com.cognizant.ams.bean.SysRoleMenu;
 import com.cognizant.ams.bean.common.JsonReqObject;
 import com.cognizant.ams.common.PageHelper;
 import com.cognizant.ams.service.RoleService;
@@ -110,16 +111,33 @@ public class RoleController {
 	@PostMapping("/roleGrant")
 	public String roleGrant(@RequestBody String param) {
 		JsonReqObject jsonReqObject = JSONArray.parseObject(param, JsonReqObject.class);
-		String roleId = jsonReqObject.getMsg();
+		String roleId [] = jsonReqObject.getMsg().replace("[", "").replace("]", "").split(",");
+		//根据角色ID查询角色编码
+		List<String>  listId =new ArrayList<String>(); 
+		for (String rId : roleId) {
+			listId.add(rId);
+		}
+		//查询
+		String [] roleCode=roleService.getRoleCode(listId);
 		System.out.println("角色ID参数===" + roleId);
 		System.out.println(jsonReqObject.getMsg1());
 		String msg1[] = jsonReqObject.getMsg1().replace("[\"", "").replace("\"]", "").replace("\",\"", ";").split(";");
-		 System.out.println(msg1);
-		for (String nodecode : msg1) {
+		System.out.println(msg1);
+		List<SysRoleMenu>  list =new ArrayList<SysRoleMenu>(); 
+		SysRoleMenu sysRoleMenu;
+		 //组装role_menu
+		for (String nodecode : msg1) {    //遍历选中的菜单
 				System.out.println(nodecode);
+				
+				for (String rolecode : roleCode) {
+					sysRoleMenu = new SysRoleMenu();
+					sysRoleMenu.setNodeCode(nodecode);
+					sysRoleMenu.setRoleCode(rolecode);
+					list.add(sysRoleMenu);
+				}
 			}
 		try {
-			//roleService.updateRole(list);
+			roleService.roleGrant(list);
 		} catch (Exception e) {
 			return "操作异常";
 		}

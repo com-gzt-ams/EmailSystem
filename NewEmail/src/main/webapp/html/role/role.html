@@ -126,8 +126,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- 模态框 -->
+		
+		<!-- 模态框 -->
 	<div class="modal fade myalert" id="myModal">
 		<div class="modal-dialog modal-sm">
 			<div class="modal-content">
@@ -138,10 +138,6 @@
 				</div>
 				<!-- 模态框主体 -->
 				<div class="modal-body">{{info2}}
-					<select id="username'" v-model="roleName" v-show="flag" style="width: 150px; height: 25px;">
-						<option value="">请选择</option>
-						<option :value="item.roleName" v-for="item in role">{{ item.roleName }}</option>
-					</select></div>
 				<!-- 模态框底部 -->
 				<div class="modal-footer">
 					<button class="btn btn-success btn-sm" data-dismiss="modal" id="modal-1"
@@ -153,6 +149,12 @@
 			</div>
 		</div>
 	</div>
+		</div>
+	</div>
+	
+	
+	
+	
 	<div id="ss"></div>
 </body>
 <script>
@@ -161,6 +163,7 @@
 		data: {
 			roleobj: { id: null, roleCode: '', roleName: '' },
 			info: [],
+			role:'',
 			menus: [],
 			parentMenus: [],
 			roleMenus:[],
@@ -207,20 +210,25 @@
 				});
 			},
 			isAllc(aaa, chk) {
-				
-				this.menus.forEach(item => {
-					if (chk) {
+				if (chk) {
+					this.roleMenus.push(aaa);
+					this.menus.forEach(item => {
 						if (item.parentNodeCode == aaa) {
 							item.chk = true;
 							this.roleMenus.push(item.nodeCode);
 						}
-					} else {
-						if (item.parentNodeCode == aaa) {
-							item.chk = false;
-							this.roleMenus.splice(this.roleMenus.indexOf(item.nodeCode),1);
-						}
-					}
-				})
+					})
+				}
+				else{
+					this.roleMenus.splice(this.roleMenus.indexOf(aaa),1);
+					
+					this.menus.forEach(item => {
+					if (item.parentNodeCode == aaa) {
+						item.chk = false;
+						this.roleMenus.splice(this.roleMenus.indexOf(item.nodeCode),1);
+					}})
+				}
+				 
 				//alert("即将为用户："+this.checkGrp+"添加"+this.roleMenus+"节点");
 			},
 			notAllc(nodeP, nodecode, parentcode, chk) {
@@ -228,6 +236,7 @@
 				this.parentMenus.forEach(item => {
 						if (item.nodeCode == parentcode) {
 							item.chk = true;
+							this.roleMenus.push(parentcode);
 						}
 				})
 				this.roleMenus.push(nodecode);

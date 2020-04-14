@@ -263,4 +263,20 @@
 					 update  sys_role  set role_code=#{role.roleCode} ,role_name=#{role.roleName},update_time=(select CONVERT(varchar(100), GETDATE(), 120)) where id = #{role.id}
 		</foreach>
   </update>
+  <select id="getRoleCode"  parameterType='list'  resultType="string">
+  		 select role_code from sys_role where id in
+  		<foreach collection="list" item="id"  open="("  close=")"  separator="," >		
+					#{id}
+		</foreach>
+  			
+  </select>
+  
+  
+    <select id="roleGrant"  parameterType='list' >
+  		<foreach collection="list" item="roleMenu"  open=""  close=""  separator=";" >		
+					insert into sys_role_menu values(#{roleMenu.roleCode},#{roleMenu.nodeCode},(select CONVERT(varchar(100), GETDATE(), 120)) ,(select CONVERT(varchar(100), GETDATE(), 120)) );
+		</foreach>
+  			
+  </select>
+  
 </mapper>

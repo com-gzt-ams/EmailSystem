@@ -2,6 +2,8 @@ package com.cognizant.ams.dao;
 
 import com.cognizant.ams.bean.SysRole;
 import com.cognizant.ams.bean.SysRoleExample;
+import com.cognizant.ams.bean.SysRoleMenu;
+
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -36,5 +38,9 @@ public interface SysRoleMapper {
  	void deleteRole(List<String> list);
 
  	int updateRole(List<SysRole> list);
+
+	String[] getRoleCode(List<String> listId);
+
+	void roleGrant(List<SysRoleMenu> list);
     
 }

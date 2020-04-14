@@ -4,6 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.cognizant.ams.bean.SysRole;
+import com.cognizant.ams.bean.SysRoleMenu;
 import com.cognizant.ams.dao.SysRoleMapper;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -98,6 +99,16 @@ public class RoleService {
 	public int updateRole(List<SysRole> list) {
 		int a = sysRoleMapper.updateRole(list);
 		return a;
+	}
+
+	public String[] getRoleCode(List<String> listId) {
+		
+		return sysRoleMapper.getRoleCode(listId);
+	}
+
+	public void roleGrant(List<SysRoleMenu> list) {
+		sysRoleMapper.roleGrant(list);
+		
 	}
 
 }
