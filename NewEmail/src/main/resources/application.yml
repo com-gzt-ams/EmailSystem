@@ -3,7 +3,7 @@ spring:
     serialization:
       indent-output: true
   profiles:
-    active: local
+    active: uat
   thymeleaf:
     prefix: html/
     suffix: .html
